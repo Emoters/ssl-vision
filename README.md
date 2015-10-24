@@ -51,6 +51,8 @@ sudo apt-get install g++ libqt4-dev libeigen3-dev protobuf-compiler libprotobuf-
 ## Compilation
  build the code by running:
 ```
+    mkdir build && cd build
+    cmake .. -DCMAKE_BUILD_TYPE=Release
     make
 ```
  The project *should* build without errors or warnings.
