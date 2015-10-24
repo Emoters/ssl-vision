@@ -140,7 +140,7 @@ message (STATUS "Custom CC Flags: ${cc_flags}")
 
 add_definitions(${cc_flags})
 
-set (libs ${QT_LIBRARIES} ${EIGEN3_LIBRARIES} dc1394 jpeg png protobuf pthread GL GLU )
+set (libs ${QT_LIBRARIES} ${EIGEN3_LIBRARIES} dc1394 jpeg png protobuf pthread GL GLU ${PROTOBUF_LIBRARIES})
 
 ## build the common code
 add_library(sslvision ${SHARED_MOC_SRCS} ${SHARED_RC_SRCS} ${CC_PROTO} ${SHARED_SRCS})
