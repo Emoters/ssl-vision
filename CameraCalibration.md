@@ -40,3 +40,7 @@ The initial calibration of the cameras is performed by specifying control points
   1. The detected edges will be displayed. Now click on "Do full calibration" to calibrate using all detected points.
   1. If necessary, repeat the last 2 steps with a smaller corridor width to refine the calibration result. The final result should match will with the image, as shown below.
 ![images/calibration_step5.png](images/calibration_step5.png)
+
+## Completed Calibration ##
+Completed calibration should look something like this...
+![images/calibration-result.png](images/calibration-result.png)
