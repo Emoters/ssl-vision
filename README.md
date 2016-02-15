@@ -46,7 +46,7 @@ sudo apt-get install g++ libqt4-dev libeigen3-dev protobuf-compiler libprotobuf-
 
 ## Hardware Requirements
  * The system supports 1394B / Firewire 800, but it's also backward compatible with 1394A.
- * The system also supports basic usb cameras via the [http://linuxtv.org/downloads/v4l-dvb-apis/](Video for Linux (V4L)) drivers. This implementation has only been tested on linux.
+ * The system also supports basic usb cameras via the [Video for Linux (V4L) drivers](http://linuxtv.org/downloads/v4l-dvb-apis/). This implementation has only been tested on linux.
 
 ## Compilation
  build the code by running:
